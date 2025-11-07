@@ -1,0 +1,15 @@
+[project]
+name = "fetchai-payment-langgraph"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain-core>=1.0.3",
+    "langchain-openai>=1.0.2",
+    "langgraph>=1.0.2",
+    "python-dotenv>=1.2.1",
+    "uagents>=0.22.10",
+    "python-jose[cryptography]>=3.3.0",
+    "aiohttp>=3.9.0",
+]
